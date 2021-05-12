@@ -1,18 +1,21 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <app-header data-aos="fade-in" />
+    <about-me data-aos="fade-up" id="About" />
+    <Portfolio data-aos="fade-up" id="Portfolio" />
+    <Services data-aos="fade-up" id="Services" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import AppHeader from "@/components/layouts/AppHeader.vue";
+import Portfolio from "@/components/articles/Portfolio.vue";
+import AboutMe from "@/components/articles/AboutMe";
+import Services from "@/components/articles/Services";
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+  components: { AppHeader, Portfolio, AboutMe, Services },
+  name: "Home",
+  title: "Max Aakre | Home",
+  setup() {},
+};
 </script>

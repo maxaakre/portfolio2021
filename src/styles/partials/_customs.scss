@@ -1,0 +1,71 @@
+.social__links {
+  list-style: none;
+  padding: 0 0 2rem;
+
+  &--center {
+    text-align: center;
+  }
+
+  li {
+    width: 60px;
+    height: 60px;
+    background: lighten(rgba(#111, 0.6), 10%);
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+  }
+  a {
+    font-size: 25px;
+    color: #2f89fc;
+    line-height: 62px;
+    padding: 15px 10px;
+
+    &.color-gray {
+      color: gray;
+
+      &:hover {
+        i {
+          color: #fff;
+        }
+      }
+    }
+
+    i {
+      transition: all 0.2s ease;
+    }
+    &:hover {
+      i {
+        transform: scale(1.01);
+      }
+      color: lighten(#2f89fc, 20%);
+    }
+  }
+}
+
+// Spacing
+.mr-10 {
+  margin: 0 10px 0 0;
+}
+.mr-15 {
+  margin: 0 15px 0 0;
+}
+.mr-20 {
+  margin: 0 20px 0 0;
+}
+.mr-25 {
+  margin: 0 25px 0 0;
+}
+.mr-30 {
+  margin: 0 30px 0 0;
+}
+.mr-35 {
+  margin: 0 35px 0 0;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.mx-20 {
+  margin: 0 20px;
+}

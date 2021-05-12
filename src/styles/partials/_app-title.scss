@@ -1,0 +1,15 @@
+.app-title {
+  margin: auto;
+  .container__sub-title {
+    font-size: 35px;
+  }
+  &--center {
+    text-align: center;
+  }
+
+  @include lg() {
+    .container__sub-title {
+      font-size: 75px;
+    }
+  }
+}

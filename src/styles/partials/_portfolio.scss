@@ -1,0 +1,140 @@
+.portfolio {
+    display: grid;
+    max-width: 1024px;
+  
+    @include lg() {
+      gap: 0 1rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    &__image {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      height: 300px;
+      align-self: center;
+      background: url('../assets/ascaro.jpg') no-repeat center
+        center/contain;
+      @include lg() {
+        width: 100%;
+        align-self: center;
+       
+      }
+    }
+  
+  
+    &__information {
+      z-index: 1;
+      color: #fff;
+      margin: auto;
+      text-align: center;
+      max-width: 568px;
+  
+      @include lg() {
+        width: 100%;
+        text-align: left;
+      }
+    }
+  
+    &__title {
+      font-weight: 400;
+      position: relative;
+      padding: 40px 0 20px;
+      letter-spacing: 2px;
+      font-size: 33px;
+  
+      @include lg() {
+        padding: 0 0 80px;
+        &::before {
+          top: -90px;
+          left: 0%;
+          z-index: -1;
+          content: "Portfolio";
+          display: block;
+          font-size: 150px;
+          position: absolute;
+          font-weight: 700;
+          letter-spacing: 15px;
+          text-transform: uppercase;
+          transform: translateX(-50%);
+          color: rgba(#999, 0.1);
+        }
+      }
+    }
+  
+    &__description {
+      padding: 0 0 2rem;
+      line-height: 2;
+      font-size: 18px;
+      color: rgba(#fff, 0.5);
+     
+    }
+    &__description__a{
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+            color: rgba(#fff, 0.5);
+        }
+    }
+  
+    &__contact-list {
+      list-style: none;
+      &::before {
+        content: "Contact me here!";
+        display: block;
+        color: #fff;
+        margin: 0 0 5px;
+        font-size: 22px;
+      }
+  
+      span {
+        display: inline-block;
+        font-size: 18px;
+        word-break: break-all;
+        margin: 0 0 0.5rem;
+        color: rgba(#fff, 0.5);
+      }
+    }
+    
+        &__list {
+          color: #fff;
+          list-style: none;
+          text-align: center;
+          padding: .2rem 0;
+          gap: 1rem 0;
+          list-style: none;
+          flex-direction: column;
+      
+          @include lg() {
+            text-align: left;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+        }
+      
+        &__item {
+          &.title {
+            font-size: 22px;
+          }
+        }
+      
+        &__inner-list {
+          list-style: none;
+          padding: 20px 0 0;
+          color: #999;
+        }
+      
+        &__inner-item {
+          font-size: 18px;
+          padding: 10px 0 0;
+      
+          &.logo {
+            padding: 10px 0;
+            font-size: 45px;
+            color: #2f89fc;
+          }
+        }
+    
+  }
+  

@@ -1,0 +1,106 @@
+
+.navbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+  margin: auto;
+  height: 100px;
+  position: absolute;
+  max-width: 1440px;
+  padding: 2rem;
+
+  &--flex {
+    display: flex;
+    align-items: center;
+  }
+
+  &--fixed {
+    position: fixed;
+  }
+
+  &__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+   
+    &::after {
+      content: "Max Aakre";
+      display: block;
+      font-size: 16px;
+      color: #fff;
+      color: #999;
+      padding: 0 0 0 40px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__logo {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    background-position: center;
+    padding: 2px;
+    border: 1px solid #ccc;
+  }
+
+  &__hamburger {
+    padding: 5px;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &.toggle {
+      transform: rotate(180deg);
+
+      div {
+        transition: 0.3s ease-in-out 0.1s;
+        &:nth-child(1) {
+          transform: rotate(-45deg) translate(-4px, 5px);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+          visibility: hidden;
+          transform: translate(100%);
+        }
+        &:nth-child(3) {
+          transform: rotate(45deg) translate(-7px, -7px);
+        }
+      }
+    }
+
+    @include lg() {
+      div {
+        transition: 0.2s ease-in-out;
+      }
+      &:not(&.toggle):hover {
+        div {
+          &:nth-child(1) {
+            transform: translateY(-2px);
+          }
+          &:nth-child(2) {
+            transform: translateY(0);
+          }
+          &:nth-child(3) {
+            transform: translateY(2px);
+          }
+        }
+      }
+    }
+
+    div {
+      width: 35px;
+      height: 2px;
+      margin: 6px 0;
+      background: #ddd;
+    }
+  }
+}
+@include lg() {
+
+ 
+  
+}
