@@ -17,11 +17,6 @@
           <li class="services__inner-item">ExpressJS</li>
           <li class="services__inner-item">MongoDB</li>
           <li class="services__inner-item">NeDB</li>
-          <li class="services__inner-item logo">
-            <i class="fab fa-php"></i>
-          </li>
-          <li class="services__inner-item">Wordpress</li>
-          <li class="services__inner-item">PHP</li>
         </ul>
       </li>
       <li class="services__item title" data-aos="fade-up" data-aos-delay="100">
@@ -40,9 +35,12 @@
             <i class="fas fa-rocket"></i>
           </li>
           <li class="services__inner-item">VueJS</li>
-           <li class="services__inner-item">React</li>
-        </ul >
-       </li>
+          <li class="services__inner-item">React</li>
+          <li class="services__inner-item">Wordpress</li>
+          <li class="services__inner-item">Contentful</li>
+          <li class="services__inner-item">PHP</li>
+        </ul>
+      </li>
     </ul>
   </article>
 </template>
