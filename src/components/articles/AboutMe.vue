@@ -4,7 +4,7 @@
     <div class="about__information">
       <h1 class="about__title">Max Aakre</h1>
       <p class="about__description">
-        I have solid knowledge in web development with technologies and
+        I have solid knowledge in software development with technologies and
         frameworks such as VueJS, NodeJS, Express.
       </p>
       <p class="about__description">
