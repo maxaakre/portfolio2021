@@ -26,7 +26,7 @@
         >maxaakre@gmail.com</span>
       </a>
     </h1>
-    <p class="footer__title--center footer__sub-title"> © Copyright 2021 Max Aakre. All rights reserved </p>
+    <p class="footer__title--center footer__sub-title"> © Copyright 2025 Max Aakre. All rights reserved </p>
   </div>
 </template>
 

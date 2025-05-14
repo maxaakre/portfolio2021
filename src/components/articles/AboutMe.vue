@@ -5,13 +5,13 @@
       <h1 class="about__title">Max Aakre</h1>
       <p class="about__description">
         I have solid knowledge in web development with technologies and
-        frameworks such as VueJS, ReactJS, NodeJS, Express and Wordpress/PHP.
+        frameworks such as VueJS, NodeJS, Express.
       </p>
       <p class="about__description">
-        I like to work at the forefront with the latest technology and create
-        full-stack applications that consist of both front-end and back-end
-        solutions. I have experience of working agile(Scrum) with tools like
-        Trello and Git.
+        I am an open and driven person with experience in both frontend and backend development, which has given me a comprehensive view of the entire process. I have experience leading teams and I’m happy to take responsibility and I take great pride in my professional role.
+I have experience working on multiple projects simultaneously and I get motivated by challenging myself, as demonstrated by my decision to change career path a few years ago.
+I work in a pragmatic and structured way and value a workplace characterized by team spirit and development.
+
       </p>
       <div id="Contact" class="about__contact">
         <ul class="social__links">
