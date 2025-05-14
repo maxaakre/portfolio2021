@@ -15,8 +15,15 @@
           </li>
           <li class="services__inner-item">NodeJS</li>
           <li class="services__inner-item">ExpressJS</li>
-          <li class="services__inner-item">MongoDB</li>
+          <li class="services__inner-item">Fastlify</li>
+          
           <li class="services__inner-item">NeDB</li>
+          <li class="services__inner-item">Firebase</li>
+          <li class="services__inner-item">Firestore</li>
+          <li class="services__inner-item">MySQL</li>
+          <li class="services__inner-item">PostgreSQL</li>
+          <li class="services__inner-item">SQLite</li>
+          
         </ul>
       </li>
       <li class="services__item title" data-aos="fade-up" data-aos-delay="100">
@@ -35,10 +42,7 @@
             <i class="fas fa-rocket"></i>
           </li>
           <li class="services__inner-item">VueJS</li>
-          <li class="services__inner-item">React</li>
-          <li class="services__inner-item">Wordpress</li>
-          <li class="services__inner-item">Contentful</li>
-          <li class="services__inner-item">PHP</li>
+          <li class="services__inner-item">Flutter</li>
         </ul>
       </li>
     </ul>
