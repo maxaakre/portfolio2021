@@ -13,6 +13,7 @@
           <li class="services__inner-item logo">
             <i class="fab fa-node-js"></i>
           </li>
+          <li class="services__inner-item">TypeScript</li>
           <li class="services__inner-item">NodeJS</li>
           <li class="services__inner-item">ExpressJS</li>
           <li class="services__inner-item">Fastlify</li>
@@ -31,7 +32,7 @@
         <ul class="services__inner-list">
           <li class="services__inner-item logo"><i class="fab fa-css3"></i></li>
           <li class="services__inner-item">CSS3</li>
-          <li class="services__inner-item">SASS/SCSS</li>
+          <li class="services__inner-item">SASS/SCSS/STYLUS</li>
           <li class="services__inner-item">Tailwind</li>
         </ul>
       </li>

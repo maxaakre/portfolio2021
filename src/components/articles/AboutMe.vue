@@ -5,7 +5,7 @@
       <h1 class="about__title">Max Aakre</h1>
       <p class="about__description">
         I have solid knowledge in software development with technologies and
-        frameworks such as VueJS, NodeJS, Express.
+        frameworks such as VueJS, TypeScript, NodeJS and Express.
       </p>
       <p class="about__description">
         I am an open and driven person with experience in both frontend and backend development, which has given me a comprehensive view of the entire process. I have experience leading teams and I’m happy to take responsibility and I take great pride in my professional role.
